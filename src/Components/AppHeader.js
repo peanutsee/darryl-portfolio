@@ -33,7 +33,7 @@ const AppHeader = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand>
             <span id='logo'>Darryl</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
